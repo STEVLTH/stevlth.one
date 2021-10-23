@@ -1,0 +1,81 @@
+/* BODY */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    background: #333;
+    color: #777;
+}
+
+h1, h2 {
+    font-weight: inherit;
+}
+
+a, a:visited {
+    all: none;
+    color: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.app-body {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    margin: 0;
+}
+
+/* HEADER */
+
+.header {
+    background: darkorange;
+}
+
+.app-name {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.app-version {
+    font-size: 12px;
+}
+
+.link, .link:visited {
+    border: none;
+    display: block;
+    outline: none;
+    transform: translate(0px, 0px);
+    transition-duration: 0.5s;
+}
+
+.link:hover {
+    color: #999;
+    transform: translate(10px, 0px);
+}
+
+.link:hover:active {
+    color: #333;
+    transform: scale(90%);
+}
+
+.link-primary-text {
+    font-size: 30px;
+    font-weight: 400;
+}
+.link-secondary-text {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
