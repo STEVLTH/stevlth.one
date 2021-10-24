@@ -1,3 +1,34 @@
+/* FONTS */
+
+@font-face {
+    font-family: "Jura";
+    font-weight: 300;
+    src:    local("Jura"),
+            local("Jura Light"),
+            url("../fonts/Jura-VariableFont_wght.ttf") format("truetype");
+  }
+@font-face {
+    font-family: "Jura";
+    font-weight: 500;
+    src:    local("Jura"),
+            local("Jura Medium"),
+            url("../fonts/Jura-Medium.ttf") format("truetype");
+  }
+@font-face {
+    font-family: "Jura";
+    font-weight: 600;
+    src:    local("Jura"),
+            local("Jura SemiBold"),
+            url("../fonts/Jura-SemiBold.ttf") format("truetype");
+  }
+@font-face {
+    font-family: "Jura";
+    font-weight: 700;
+    src:    local("Jura"),
+            local("Jura Bold"),
+            url("../fonts/Jura-Bold.ttf") format("truetype");
+  }
+
 /* BODY */
 
 html,
@@ -53,7 +84,7 @@ h4 {
 h1 {
   margin: 0;
   font-size: 10vw;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.6em;
   margin: 3vh -0.55em 4vh 0;
 
