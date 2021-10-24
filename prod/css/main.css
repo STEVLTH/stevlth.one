@@ -139,7 +139,8 @@ a:visited {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: shine 5s linear infinite;
-  animation: shine 5s linear infinite, 5s ease 0s 1 fade-out;
+  animation: shine 5s linear infinite;
+  /* animation: shine 5s linear infinite, 5s ease 0s 1 fade-out; */
   transition-duration: 0.5s;
 }
 
